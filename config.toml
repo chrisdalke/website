@@ -1,0 +1,10 @@
+baseurl = "https://chrisdalke.com/"
+languageCode = "en-us"
+title = "Chris Dalke"
+theme = "hyde"
+
+
+  disqusShortname = "chrisdalke-com"
+[params]
+  description = "Software Developer, Maker, Student"
+  author = "Chris Dalke"
