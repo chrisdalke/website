@@ -1,0 +1,60 @@
+<div class="sidebar">
+    <div class="container">
+        <div class="sidebar-about">
+            <div class="sidebar-profile-pic">
+                <img src="{{ .Site.BaseURL }}img/profile1.jpg" width="100%">
+            </div>
+            <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+            <p class="lead">
+                {{ with .Site.Params.description }} {{.}} {{ else }}{{end}}
+            </p>
+        </div>
+
+        <div class="sidebar-popout">
+
+            <ul class="sidebar-nav">
+                <li><a href="/">About</a> </li>
+                {{ range .Site.Menus.main }}
+                <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+                {{end}}
+            </ul>
+
+            <ul class="sidebar-nav">
+                <li><a href="/contact/">Contact</a> </li>
+                <li><a href="https://github.com/chrisdalke">Github</a> </li>
+                <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn</a> </li>
+            </ul>
+
+        </div>
+
+        <p class="sidebar-copyright">&copy; {{now.Format "2006"}} Chris Dalke</p>
+
+
+        <div class="sidebar-profile-pic-mobile">
+            <img src="{{ .Site.BaseURL }}img/profile1.jpg" width="100%">
+        </div>
+    </div>
+</div>
+
+<div class="sidebar-mobile-menu">
+    <div class="top-span" id="menu-top-span">
+        <span class="show-js">&#9776; </span>Menu
+    </div>
+
+    <div class="bottom-span menu-opened" id="menu-bottom-span">
+        <ul class="sidebar-nav">
+            <li><a href="/">About</a> </li>
+            {{ range .Site.Menus.main }}
+            <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+            {{end}}
+        </ul>
+
+        <ul class="sidebar-nav">
+            <li><a href="/contact/">Contact</a> </li>
+            <li><a href="https://github.com/chrisdalke">Github</a> </li>
+            <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn</a> </li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/mobile-menu.js"></script>

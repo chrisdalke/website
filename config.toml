@@ -1,7 +1,7 @@
 baseurl = "https://chrisdalke.com/"
 languageCode = "en-us"
 title = "Chris Dalke"
-theme = "hyde"
+theme = "hyde-custom"
 
 
   disqusShortname = "chrisdalke-com"

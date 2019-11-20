@@ -1,0 +1,706 @@
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar hr {
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-top: 1px solid rgba(255,255,255,.5);
+}
+
+.sidebar h1 {
+    text-align: left;
+}
+
+.sidebar p {
+    text-align: left;
+}
+
+ .sidebar li {
+     text-align: left;
+ }
+
+.sidebar-profile-pic {
+    border-radius:50%;
+    overflow:hidden;
+    width:140px;
+    height:140px;
+    margin: 0 auto;
+    margin-bottom:15px;
+    display:none;
+}
+
+.sidebar-profile-pic-mobile {
+    border-radius:50%;
+    overflow:hidden;
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+}
+
+@media (min-width: 38em) {
+    .sidebar-profile-pic-mobile {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+
+.sidebar-copyright {
+    display: none;
+}
+
+.sidebar-mobile-menu {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.sidebar-mobile-menu .top-span {
+    padding: 18px;
+    padding-left: 2rem;
+    background-color: #dadada;
+    position: relative;
+    z-index: 3;
+    height: 60px;
+}
+
+@media (min-width: 38em) {
+    .sidebar-mobile-menu .top-span {
+        padding: 16px;
+        padding-left: 2rem;
+    }
+}
+
+
+.sidebar-mobile-menu .bottom-span {
+    box-sizing: border-box;
+    background-color: #eaeaea;
+    padding: 15px;
+    padding-left: 2rem;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.menu-js-active {
+    width: 100%;
+    height: auto !important;
+    position: absolute !important;
+    transition: max-height 0.15s ease, top 0.15s ease;
+}
+
+.show-js {
+    display: none;
+}
+
+.menu-js-active.menu-closed {
+    max-height: 0px;
+    top: 0px;
+}
+
+.menu-js-active.menu-opened {
+    max-height: 300px;
+    top: 60px;
+
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+
+@media (min-width: 48em) {
+    .sidebar-mobile-menu {
+        display: none;
+    }
+}
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  padding-bottom: 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+  overflow: visible;
+  position: relative;
+}
+
+.sidebar-popout {
+    position: fixed;
+    display: none;
+}
+
+@media (min-width: 48em) {
+    .sidebar h1 {
+        text-align: center;
+    }
+    .sidebar p {
+        text-align: left;
+    }
+    .sidebar-popout {
+        position: relative;
+        display: block;
+    }
+    .sidebar-profile-pic {
+        display:block;
+    }
+    .sidebar-profile-pic-mobile {
+        display: none;
+    }
+    .sidebar-copyright {
+        display:block;
+    }
+    .sidebar {
+        overflow-y: auto;
+        padding: 2rem 1rem;
+    }
+}
+
+.sidebar-nav li {
+    display: block;
+}
+
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+  .sidebar-nav li {
+      display: block;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+.sidebar-nav-item {
+  display: block;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
+
+/*Footer CSS
+*/
+
+.footer {
+    display: block;
+    text-align: center;
+    padding: 2rem 1rem;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    color: rgba(255,255,255,.5);
+    background-color: #202020;
+}
+
+.footer p {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 48em) {
+  .footer {
+      display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .footer {
+      display: none;
+  }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    1rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 48em) {
+  .content {
+    padding-top:    4rem;
+    padding-bottom: 4rem;
+    max-width: 38rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 22rem;
+    margin-right: 4rem;
+  }
+}
+
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
+
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+/* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Red */
+.theme-base-08 .sidebar {
+  background-color: #ac4142;
+}
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .sidebar {
+  background-color: #d28445;
+}
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+  color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .sidebar {
+  background-color: #f4bf75;
+}
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+  color: #f4bf75;
+}
+
+/* Green */
+.theme-base-0b .sidebar {
+  background-color: #90a959;
+}
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+  color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .sidebar {
+  background-color: #75b5aa;
+}
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+  color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .sidebar {
+  background-color: #6a9fb5;
+}
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
+
+/*
+CONTACT FORM
+*/
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#contact fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #303030;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #505050;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 14px;
+}
+::-webkit-scrollbar-button {
+  width: 16px;
+  height: 14px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b8b7b9;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a6a5a8;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #9c9b9c;
+}
+::-webkit-scrollbar-track {
+  background: #dcdbdd;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #e3e2e4;
+}
+::-webkit-scrollbar-track:active {
+  background: #d3d3d4;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select{
+    width: 100%;
+    margin:0px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    outline: none;
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    width: 100%;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+/* Inline fluid gridbox */
+
+.grid-box-outer {
+    width: 49%;
+    height: 200px;
+    padding: 0px;
+    margin: 0px ;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: #DDDDDD;
+    position: relative;
+}
+
+.grid-box-outer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-box-outer .grid-box-title {
+    display: block;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    padding: 5px;   
+}
+
+.grid-box-outer .grid-box-content {
+    
+}
+
+@media (min-width: 58em) {
+  .grid-box-outer {
+    width: 32%;
+  }
+}
+@media (min-width: 48em) {
+  .grid-box-outer {
+  }
+}
+@media (min-width: 38em) {
+  .grid-box-outer {
+  }
+}

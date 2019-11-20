@@ -1,0 +1,16 @@
+name = "Hyde-Custom"
+license = "MIT"
+licenselink = "https://github.com/spf13/hyde/blob/master/LICENSE.md"
+description = "Customized version of the Hyde theme"
+tags = ["blog", "company"]
+features = ["blog", "themes", "disqus"]
+min_version = 0.14
+
+[author]
+    name = "chrisdalke"
+    homepage = "https://chrisdalke.com"
+
+[original]
+    author =  "mdo"
+    homepage = "http://markdotto.com/"
+    repo = "https://www.github.com/mdo/hyde"
