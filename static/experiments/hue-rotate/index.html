@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Hue Rotation Demo</title>
+
+    <!-- Style dependencies -->
+    <link href="main.css" rel="stylesheet" />
+    <link href="https://unpkg.com/normalize.css@^7.0.0" rel="stylesheet" />
+    <link rel="stylesheet" href="jquery-ui-1.12.1.dark/jquery-ui.css">
+
+    <!-- Blueprint stylesheets -->
+    <link href="https://unpkg.com/@blueprintjs/icons@^3.4.0/lib/css/blueprint-icons.css" rel="stylesheet" />
+    <link href="https://unpkg.com/@blueprintjs/core@^3.10.0/lib/css/blueprint.css" rel="stylesheet" />
+</head>
+
+<body class="bp3-dark">
+    <h1>Hue Rotation Demo</h1>
+    <div class="bp3-card">
+        <h3 class="bp3-heading">Options</h3>
+        <!--
+        Mode:
+        <div class="bp3-select">
+            <select id="image-mode">
+                <option selected>Webcam</option>
+                <option>Upload Image</option>
+            </select>
+        </div>-->
+
+        <div id="hue-slider" class="slider-spacing"></div>Hue Shift: <span id="hue-label">0</span> degrees
+        <div id="speed-slider" class="slider-spacing"></div>Hue Shift Speed: <span id="speed-label">0</span>
+        degrees/second
+    </div>
+    <div class="bp3-card">
+        <div id="hue-panel">
+            <video autoplay="true" id="videoElement">
+
+            </video>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jquery-ui-1.12.1.dark/jquery-ui.js"></script>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

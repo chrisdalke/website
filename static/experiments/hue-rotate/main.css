@@ -1,0 +1,24 @@
+body {
+    background-color: #293742;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#hue-panel {
+    filter: hue-rotate(0deg);
+}
+
+#videoElement {
+    width: 100%;
+}
+
+.slider-spacing {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
