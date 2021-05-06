@@ -19,18 +19,29 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/hyde.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/flexboxgrid.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
 
-    <!-- RSS -->
-    {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    <meta property="og:url" content="https://www.chrisdalke.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chris Dalke">
+    <meta property="og:description" content="Full-Stack Engineer, Maker, Hardware Hacker">
+    <meta property="og:image" content="opengraph.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="chrisdalke.com">
+    <meta property="twitter:url" content="https://www.chrisdalke.com/">
+    <meta name="twitter:title" content="Chris Dalke">
+    <meta name="twitter:description" content="Full-Stack Engineer, Maker, Hardware Hacker">
+    <meta name="twitter:image" content="opengraph.png">
 
     <!-- JS -->
     <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}js/show-js.js"></script>
+    <script async defer data-website-id="3e9377b4-84d0-42b8-83e8-b4bd3a424e32" src="umami.js"></script>
 </head>

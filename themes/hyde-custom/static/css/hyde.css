@@ -78,19 +78,12 @@ html {
 .sidebar-profile-pic-mobile {
     border-radius:50%;
     overflow:hidden;
-    display: none;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    bottom: -30px;
-    right: 30px;
-}
-
-@media (min-width: 38em) {
-    .sidebar-profile-pic-mobile {
-        width: 130px;
-        height: 130px;
-    }
+    display: block;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 
@@ -114,13 +107,15 @@ html {
     z-index: 3;
     height: 60px;
     cursor: pointer;
+    max-width: 38em;
+    margin: 0 auto;
 }
-
-@media (min-width: 38em) {
-    .sidebar-mobile-menu .top-span {
-        padding: 16px;
-        padding-left: 2rem;
-    }
+.sidebar-mobile-menu .top-span-container {
+  width: 100%;
+  height: 60px;
+  z-index: 3;
+  background-color: #dadada;
+  position: relative;
 }
 
 

@@ -4,6 +4,9 @@
             <div class="sidebar-profile-pic">
                 <img src="{{ .Site.BaseURL }}img/profile.jpg" width="100%">
             </div>
+            <div class="sidebar-profile-pic-mobile">
+                <img src="{{ .Site.BaseURL }}img/profile.jpg" width="100%">
+            </div>
             <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
             <p class="lead">
                 {{ with .Site.Params.description }} {{.}} {{ else }}{{end}}
@@ -15,41 +18,46 @@
             <ul class="sidebar-nav">
                 <li><a href="/">About</a> </li>
                 <li><a href="/projects">Projects</a> </li>
+                <li><a href="/experience">Experience</a> </li>
             </ul>
 
-            <ul class="sidebar-nav">
-                <li><a href="https://github.com/chrisdalke">Github</a> </li>
-                <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn</a> </li>
-                <li><a href="https://www.youtube.com/channel/UCli_414nxoBYXDMmYaCHiQg">YouTube</a> </li>
+            <ul class="sidebar-nav sidebar-nav-social-links">
+                <li><a href="https://github.com/chrisdalke">Github</a> ➜</li>
+                <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn</a> ➜</li>
+                <li><a href="https://www.youtube.com/channel/UCli_414nxoBYXDMmYaCHiQg">YouTube</a> ➜</li>
+                <li><a href="https://www.instagram.com/dalks_workshop/">Instagram</a> ➜</li>
+                <li><a href="https://twitter.com/chris_dalke">Twitter</a> ➜</li>
+                <li><a href="/contact">Email</a> ➜</li>
                 <li> </li>
             </ul>
 
-        </div>
-
-
-        <div class="sidebar-profile-pic-mobile">
-            <img src="{{ .Site.BaseURL }}img/profile1.jpg" width="100%">
         </div>
     </div>
 </div>
 
 <div class="sidebar-mobile-menu">
-    <div class="top-span" id="menu-top-span">
-        <span class="show-js">&#9776; </span>Menu
+    <div class="top-span-container">
+
+        <div class="top-span" id="menu-top-span">
+            <span class="show-js">&#9776; </span>Menu
+        </div>
     </div>
 
     <div class="bottom-span menu-opened" id="menu-bottom-span">
         <ul class="sidebar-nav">
             <li><a href="/">About</a> </li>
-            {{ range .Site.Menus.main }}
-            <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-            {{end}}
+            <li><a href="/projects">Projects</a> </li>
+            <li><a href="/experience">Experience</a> </li>
         </ul>
 
         <ul class="sidebar-nav">
-            <li><a href="/contact/">Contact</a> </li>
-            <li><a href="https://github.com/chrisdalke">Github</a> </li>
-            <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn</a> </li>
+            <li><a href="https://github.com/chrisdalke">Github  ➜</a></li>
+            <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn ➜</a> </li>
+            <li><a href="https://www.youtube.com/channel/UCli_414nxoBYXDMmYaCHiQg">YouTube ➜</a></li>
+            <li><a href="https://www.instagram.com/dalks_workshop/">Instagram ➜</a></li>
+            <li><a href="https://twitter.com/chris_dalke">Twitter ➜</a></li>
+            <li><a href="/contact">Email ➜</a></li>
+            <li> </li>
         </ul>
     </div>
 </div>

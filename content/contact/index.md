@@ -1,13 +1,8 @@
 +++
-Categories = ["Development", "GoLang"]
-Description = ""
-Tags = ["Development", "golang"]
-date = "2016-10-21T20:13:04-04:00"
-title = "Contact Me"
-
+title = "Contact Me via Email"
 +++
 
-My preferred contact method is via email, which you can find listed on my Github profile. I am also available via the form below:
+If you'd like to contact me via email, you can find it listed on my Github profile. I am also available via the form below:
 
 <form name="contact" id="contact" method="POST" data-netlify="true">
   <p>

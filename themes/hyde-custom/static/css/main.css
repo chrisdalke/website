@@ -97,3 +97,10 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+.sidebar-nav-social-links {
+  color:rgba(255, 255, 255, 0.2);
+}
+.sidebar-nav-social-links a {
+  color:rgba(255, 255, 255, 0.5);
+}

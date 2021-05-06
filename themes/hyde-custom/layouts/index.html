@@ -4,55 +4,7 @@
     {{ partial "sidebar.html" . }}
 
     <div class="content container">
-        <h1>About Me</h1>
-        <p>I'm Chris! I'm a full-stack software engineer with a focus on telemetry, data visualization, and controls for hardware systems. I bring a unique interdisciplinary skillset that combines software, 
-            UI/UX, mechanical & electrical prototyping, and fabrication. 
-        <br><br>
-
-        Currently, I'm working at 908 Devices as a software engineer in R&D, building software for 908 Devices' line of portable, chemical analysis devices based on high-pressure mass spectrometry.
-         <br><br>
-         Outside of work, I have a background in autonomous and electric vehicle development. I spent four years as a member of the University of Rochester's solar boat team, where I led a data-driven approach that used a modular telemetry system to optimize our electric drivetrain system. In my spare time, I build and fly RC airplanes, drones, and cars.
-         
-            <h3>Some Highlights</h3> Here are some of the most notable things I've done. Head over to the <a href="/projects/">Projects</a> page to see some other interesting projects, and <a href="/resume/">Resume</a> to view more of my experience.
-            <h4>&#10140; Fall 2018</h4>
-            I'm spending much of my Senior year working as the president of the <a href="http://sa.rochester.edu/solarsplash">University of Rochester Solar Splash team</a>, a group of students who are committed to designing, building and racing a solar-powered electric boat.
-            This year, the team is focused on building out our telemetry capabilities to improve data collection from sensors on the boat.<br><br>
-            <img src="/img/urss1.png" style="width:100%"/>
-
-            <h4>&#10140; Summer 2018</h4>
-            Interned for Amazon in Seattle, WA.
-            I worked on the Maps Services team, which owns real time navigation systems at Amazon.
-            During my internship, I helped Amazon improve their operational efficiency by automating a critical data conversion process for map data.
-            I developed knowledge in AWS CloudFormation, Lambda, and Data Pipeline, building the infrastructure for large-scale batch jobs.
-            <br><br>
-            <img src="/img/seattle.JPG" style="width:100%"/>
-
-
-            <h4>&#10140; Summer 2017</h4>
-            Returned to <a href="https://beco.io/">Beco</a> in Boston, MA, where I built monitoring services to collect metrics for critical infrastructure.
-            Ported Beco's location SDK to <a href="https://cordova.apache.org/">Apache Cordova</a>, enabling use of the Beco ecosystem in web-based mobile applications.
-
-            <h4>&#10140; Spring 2017</h4> Won 1st place at the University of Rochester's 2017 Dandyhacks hackathon with <a href="https://devpost.com/software/cubik-rooms">Rubik Rooms</a>, a first person puzzle game with an innovative level manipulation mechanic. Gained experience
-            with graphics programming using OpenGL and Java.<br><br>
-            <img src="/img/rubikrooms.png" style="width:100%"/>
-
-            <h4>&#10140; Summer 2016 </h4>Interned at <a href="https://beco.io/">Beco</a>, a location analytics startup delivering real-world insights for physical spaces through wireless beacon technology. I worked on the development of an OpenAuth identity provider and gained experience
-            deploying to cloud infrastructure, particularly Azure.
-
-            <h4>&#10140; Spring 2016</h4> Won 2nd place at the University of Rochester's 2016 Dandyhacks hackathon with a hardware project consisting of customizable <a href="/projects/pianokeys/">Giant Piano Keys</a> which worked as an input device for a computer. Linked the keys
-            to a visualization and music synthesizer built with Processing.
-
-            <h4>&#10140; Winter 2015</h4> Published <a href="https://itunes.apple.com/us/app/mine-climb/id1023596741">Mine Climb</a> to the iOS App Store. Mine Climb is an addicting endless scroller with hand-crafted pixel art graphics and procedural level generation. Programmed
-            in C++ and SDL.<br><br>
-            <img src="/img/mineclimb1.png" style="width:30%; display: inline-block; float: left; margin-right: 2%;"/>
-            <img src="/img/mineclimb2.png" style="width:30%; display: inline-block; float: left; margin-right: 2%;"/>
-            <img src="/img/mineclimb3.png" style="width:30%; display: inline-block; float: left; margin-right: 2%;"/>
-            <div style="clear: both;"/>
-
-            <h4>&#10140; Fall 2015</h4>
-            Started studying at the University of Rochester, where I am pursuing a Bachelors of Science in Computer Science. Running on the Varsity Cross Country & Track and Field teams.
-
-        </p>
+        {{ .Content }}
     </div>
 
     {{ partial "footer.html" . }}
