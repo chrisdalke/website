@@ -6,5 +6,10 @@ theme = "hyde-custom"
 
   disqusShortname = "chrisdalke-com"
 [params]
-  description = "Software Developer, Maker, Student"
+  description = "Software Developer, Maker"
   author = "Chris Dalke"
+
+[taxonomies]
+
+[markup.goldmark.renderer]
+unsafe = true
