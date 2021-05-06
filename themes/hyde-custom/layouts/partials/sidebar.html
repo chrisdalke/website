@@ -14,20 +14,17 @@
 
             <ul class="sidebar-nav">
                 <li><a href="/">About</a> </li>
-                {{ range .Site.Menus.primary }}
-                <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-                {{end}}
+                <li><a href="/projects">Projects</a> </li>
             </ul>
 
             <ul class="sidebar-nav">
-                <li><a href="/contact/">Contact</a> </li>
                 <li><a href="https://github.com/chrisdalke">Github</a> </li>
                 <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn</a> </li>
+                <li><a href="https://www.youtube.com/channel/UCli_414nxoBYXDMmYaCHiQg">YouTube</a> </li>
+                <li> </li>
             </ul>
 
         </div>
-
-        <p class="sidebar-copyright">&copy; {{now.Format "2006"}} Chris Dalke</p>
 
 
         <div class="sidebar-profile-pic-mobile">

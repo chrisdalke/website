@@ -6,7 +6,7 @@ theme = "hyde-custom"
 
   disqusShortname = "chrisdalke-com"
 [params]
-  description = "Software Developer, Maker"
+  description = "Full-Stack Engineer, Maker, Hardware Hacker"
   author = "Chris Dalke"
 
 [taxonomies]

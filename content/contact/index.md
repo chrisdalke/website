@@ -7,12 +7,9 @@ title = "Contact Me"
 
 +++
 
-My preferred contact method is via email:
-`chrisdalke (at) gmail.com`
+My preferred contact method is via email, which you can find listed on my Github profile. I am also available via the form below:
 
-I am also available via the form below:
-
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" id="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Email: <input type="email" name="email" placeholder="Your Email"/></label>
   </p>

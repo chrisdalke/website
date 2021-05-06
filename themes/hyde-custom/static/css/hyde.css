@@ -113,6 +113,7 @@ html {
     position: relative;
     z-index: 3;
     height: 60px;
+    cursor: pointer;
 }
 
 @media (min-width: 38em) {
@@ -546,39 +547,6 @@ CONTACT FORM
   color: #888;
 }
 
-::-webkit-scrollbar {
-  width: 16px;
-  height: 14px;
-}
-::-webkit-scrollbar-button {
-  width: 16px;
-  height: 14px;
-}
-::-webkit-scrollbar-thumb {
-  background: #b8b7b9;
-  border: 0px none #ffffff;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #a6a5a8;
-}
-::-webkit-scrollbar-thumb:active {
-  background: #9c9b9c;
-}
-::-webkit-scrollbar-track {
-  background: #dcdbdd;
-  border: 0px none #ffffff;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-track:hover {
-  background: #e3e2e4;
-}
-::-webkit-scrollbar-track:active {
-  background: #d3d3d4;
-}
-::-webkit-scrollbar-corner {
-  background: transparent;
-}
 
 .form-style-1 input[type=text],
 .form-style-1 input[type=date],
