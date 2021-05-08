@@ -5,6 +5,19 @@
 
     <div class="content container">
         {{ .Content }}
+
+        <div class="row">
+            {{range .Site.RegularPages}}
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <a href="{{.Permalink}}" class="project-card-link">
+                <div class="project-card">
+                {{.Title}}
+                    
+                </div>
+                </a>
+            </div>
+            {{end}}
+        </div>
     </div>
 
     {{ partial "footer.html" . }}

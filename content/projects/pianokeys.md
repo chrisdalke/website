@@ -5,6 +5,7 @@ Tags = ["Development", "golang"]
 date = "2016-10-21T19:18:37-04:00"
 title = "Giant Piano Keys"
 
+draft = true
 +++
 
 This set of giant piezoelectric piano keys won 2nd place at the University of Rochester's 2016 Dandyhacks hackathon. When I started the hackathon, I decided I wanted to tackle a hardware/software hack. I decided on building a large keyboard-input device that would be pressable using your hands or feet, and would send input to a computer. 

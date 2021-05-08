@@ -1,5 +1,6 @@
 ---
 title: "Experience"
+type: "nolist"
 ---
 
 ## Professional Experience

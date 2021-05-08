@@ -4,7 +4,7 @@ Description = ""
 Tags = ["Development", "golang"]
 date = "2016-10-21T19:18:37-04:00"
 title = "Pinball Machine"
-
+draft = true
 +++
 
 For the last few years, I've periodically worked on a project to build a full-scale pinball machine. This has been a great project for me because I've learned a wealth of knowledge regarding CNC machining techniques and woordworking. I also gained experience in Arduino prototyping and high-power circuit design. This project is still largely a work-in-progress.
