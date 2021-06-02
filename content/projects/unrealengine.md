@@ -5,6 +5,7 @@ Tags = ["Development", "golang"]
 date = "2016-10-21T19:18:37-04:00"
 title = "Unreal Engine Game Project"
 draft = true
+type = "software"
 
 +++
 

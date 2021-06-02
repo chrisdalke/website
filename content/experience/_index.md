@@ -1,7 +1,8 @@
 ---
-title: "Experience"
-type: "nolist"
+title: "Professional Experience"
+layout: "nolist"
 ---
+
 
 ## Professional Experience
 908 devices

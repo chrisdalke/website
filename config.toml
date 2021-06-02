@@ -11,5 +11,9 @@ theme = "hyde-custom"
 
 [taxonomies]
 
+
+disableKinds = ["taxonomy","taxonomyTerm","sitemap"]
+
+
 [markup.goldmark.renderer]
 unsafe = true

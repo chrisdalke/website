@@ -1,6 +1,7 @@
- {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
 <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+    
     {{ partial "sidebar.html" . }}
 
     <div class="content container">
@@ -8,13 +9,22 @@
 
         <div class="row" id="filterable-grid">
             {{range .Site.RegularPages}}
-            <div class="col-xs-12 col-md-6 col-lg-4 grid-section-{{.Section}}">
+            <div class="col-xs-12 col-md-6 col-lg-4 
+            {{ if eq .Params.type "education" }}grid-section-education{{ end }}
+            {{ if eq .Params.type "software" }}grid-section-software{{ end }}
+            {{ if eq .Params.type "hardware" }}grid-section-hardware{{ end }}
+            {{ if eq .Params.type "career" }}grid-section-career{{ end }}">
                 <a href="{{.Permalink}}" class="project-card-link">
                 <div class="project-card">
                     <div class="project-card-image">
 
                     </div>
-                    <div class="project-card-title-container">
+                    <div class="project-card-title-container
+                    {{ if eq .Params.type "education" }}project-card-title-education{{ end }}
+                    {{ if eq .Params.type "software" }}project-card-title-software{{ end }}
+                    {{ if eq .Params.type "hardware" }}project-card-title-hardware{{ end }}
+                    {{ if eq .Params.type "career" }}project-card-title-career{{ end }}
+                    ">
                         {{.Title}}
                     </div>
                 </div>

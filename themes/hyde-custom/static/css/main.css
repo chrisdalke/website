@@ -187,27 +187,28 @@ ul {
   align-items:stretch;
   margin-bottom: 15px;
   background-color: rgba(0,0,0,0.08);
+  height: 10em;
+  overflow: hidden;
 }
 
 .project-card-image {
   flex: 1;
-  min-height: 8em;
 }
 
 .project-card-title-container {
   padding: 10px;
 }
 .project-card-title-software {
-  background-color: #48AFF0;
+  background-color: #48b0f070;
 }
 .project-card-title-hardware {
-  background-color: #FF6E4A;
+  background-color: #ff6e4a62;
 }
-.project-card-title-educational {
-  background-color: #FFC940;
+.project-card-title-education {
+  background-color: #ffc94063;
 }
-.project-card-title-professional {
-  background-color: #62D96B;
+.project-card-title-career {
+  background-color: #62d96c56;
 }
 
 a.project-card-link {
@@ -216,18 +217,71 @@ a.project-card-link {
 }
 
 
-.grid-show-all > .grid-section-experience {
-    display: block;
+.grid-show-all .grid-section-software {
+  display: block;
 }
-.grid-show-all > .grid-section-projects {
-    display: block;
+.grid-show-all .grid-section-hardware {
+  display: block;
+}
+.grid-show-all .grid-section-education {
+  display: block;
+}
+.grid-show-all .grid-section-career {
+  display: block;
 }
 
-.grid-show-experience > .grid-section-experience {
-    display: block;
+.grid-show-software .grid-section-software {
+  display: block;
 }
-.grid-show-experience > .grid-section-projects {
+.grid-show-software .grid-section-hardware {
+  display: none;
+}
+.grid-show-software .grid-section-education {
+  display: none;
+}
+.grid-show-software .grid-section-career {
     display: none;
+}
+
+.grid-show-hardware .grid-section-software {
+  display: none;
+}
+.grid-show-hardware .grid-section-hardware {
+  display: block;
+}
+.grid-show-hardware .grid-section-education {
+  display: none;
+}
+.grid-show-hardware .grid-section-career {
+  display: none;
+}
+
+
+.grid-show-educational .grid-section-software {
+  display: none;
+}
+.grid-show-educational .grid-section-hardware {
+  display: none;
+}
+.grid-show-educational .grid-section-education {
+  display: block;
+}
+.grid-show-educational .grid-section-career {
+  display: none;
+}
+
+
+.grid-show-professional .grid-section-software {
+  display: none;
+}
+.grid-show-professional .grid-section-hardware {
+  display: none;
+}
+.grid-show-professional .grid-section-education {
+  display: none;
+}
+.grid-show-professional .grid-section-career {
+  display: block;
 }
 
 .grid-filter-enabled {

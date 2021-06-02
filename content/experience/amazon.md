@@ -1,3 +1,4 @@
 ---
 title: "Amazon"
+type: "career"
 ---
