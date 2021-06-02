@@ -1,0 +1,4 @@
+---
+title: "Beco"
+type: "career"
+---
