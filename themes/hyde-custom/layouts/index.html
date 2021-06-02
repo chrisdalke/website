@@ -6,13 +6,17 @@
     <div class="content container">
         {{ .Content }}
 
-        <div class="row">
+        <div class="row" id="filterable-grid">
             {{range .Site.RegularPages}}
-            <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="col-xs-12 col-md-6 col-lg-4 grid-section-{{.Section}}">
                 <a href="{{.Permalink}}" class="project-card-link">
                 <div class="project-card">
-                {{.Title}}
-                    
+                    <div class="project-card-image">
+
+                    </div>
+                    <div class="project-card-title-container">
+                        {{.Title}}
+                    </div>
                 </div>
                 </a>
             </div>

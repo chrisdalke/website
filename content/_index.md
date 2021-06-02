@@ -15,20 +15,26 @@ Outside of engineering, I love running, boating, and the outdoors! I graduated f
 
 ## Projects & Experience
 
-<div class="experience-type-tag">
-    <div class="experience-type-color" style="background-color: #FF6E4A">💻</div>
+<div class="experience-type-tag-container">
+
+<div class="experience-type-tag" id="software-experience-filter">
+    <div class="experience-type-color" style="background-color: #48AFF0"><i class="fas fas-light fa-laptop"></i></div>
     Software
 </div>
-<div class="experience-type-tag">
-    <div class="experience-type-color" style="background-color: #48AFF0">🛰️</div>
+<div class="experience-type-tag" id="hardware-experience-filter">
+    <div class="experience-type-color" style="background-color: #FF6E4A"><i class="fas fas-light fa-satellite"></i></div>
     Hardware
 </div>
-<div class="experience-type-tag">
-    <div class="experience-type-color" style="background-color: #FFC940">🎓</div>
+<div class="experience-type-tag" id="educational-experience-filter">
+    <div class="experience-type-color" style="background-color: #FFC940"><i class="fas fas-light fa-book"></i></div>
     Educational
 </div>
-<div class="experience-type-tag">
-    <div class="experience-type-color" style="background-color: #62D96B">👔</div>
+<div class="experience-type-tag" id="professional-experience-filter">
+    <div class="experience-type-color" style="background-color: #62D96B"><i class="fas fas-light fa-user-tie"></i></div>
     Professional
+</div>
+<div id="clear-experience-filter">
+    Clear Filter
+</div>
 </div>
 <div style="clear: both; width: 100%; height: 25px;"></div>
