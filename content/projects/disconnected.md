@@ -1,10 +1,6 @@
-+++
-Description = ""
-date = "2016-10-21T19:18:37-04:00"
-title = "Disconnected"
-draft = true
-type = "software"
-+++
+---
+title: "Disconnected"
+---
 
 {{< youtube YK-K2kiqHLU >}}
 

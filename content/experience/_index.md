@@ -1,6 +1,5 @@
 ---
 title: "Professional Experience"
-layout: "nolist"
 ---
 
 

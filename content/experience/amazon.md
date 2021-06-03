@@ -1,4 +1,4 @@
 ---
 title: "Amazon"
-type: "career"
+group: "career"
 ---

@@ -1,4 +1,4 @@
 ---
 title: "Convene"
-type: "career"
+group: "career"
 ---

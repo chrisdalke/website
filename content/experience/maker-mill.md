@@ -1,4 +1,4 @@
 ---
 title: "The Maker Mill"
-type: "career"
+group: "career"
 ---

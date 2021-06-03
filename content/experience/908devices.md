@@ -1,4 +1,6 @@
 ---
 title: "908 Devices"
-type: "career"
+group: "career"
 ---
+
+Test
