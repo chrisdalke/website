@@ -1,6 +1,6 @@
-+++
-title = "Contact Me via Email"
-+++
+---
+title: "Contact Me"
+---
 
 If you'd like to contact me via email, you can find it listed on my Github profile. I am also available via the form below:
 

@@ -1,62 +1,28 @@
 ---
-title: "Professional Experience"
+title: "Experience"
 ---
 
+I combine a deep software background with a broad variety of mechanical design, hardware prototyping, and fabrication experience.
 
-## Professional Experience
-908 devices
-convene
-amazon
-beco
-the maker mill
-university of rochester
+## Software Skills
 
+I've worked in a wide range of applications, from embedded C++ to web-based Java backends. I'm most experienced in embedded C++,
+Java-based backends, and React/JS frontend development.
 
-## Education
-Udacity
-Flying Car and Autonomous Flight Engineer Nanodegree
+I've built and deployed several interactive web applications to the cloud, and I am very familiar 
 
+- **Programming Languages** C/C++, JavaScript, Java, Python, SQL
+- **Frameworks** React, Qt, ROS, ArduPilot, Node.js, HTML/CSS, jQuery, Spring Boot, Django, OpenGL, SDL, Arduino
+- **Infrastructure / DevOps** AWS, DigitalOcean, Git, Make/CMake, Gradle, Docker, PostgreSQL, Linux/Unix
 
+## Hardware & Electrical Skills
+- **CAD** Solidworks, Fusion 360
+- **PCB Design** EAGLE, EasyEDA, KiCad
+- **Electrical Fabrication** THT and SMD Soldering
+- **Electrical Debugging** Logic analysis, Oscilloscope debugging
 
-## Skills
-
-### Programming Languages
-- Java
-- C/C++
-- JavaScript
-- Python
-- MATLAB
-
-### Frameworks
-- Qt
-- React
-- Node.js
-- Spring Boot
-- HTML/CSS
-- jQuery
-- Django
-- OpenGL
-- SDL
-- Arduino Ecosystem
-
-**Software**:
-Git
-
-
-
-### CAD
-Solidworks
-Fusion 360
-
-**Fabrication**
-Laser Cutting, 3D Printing, PCB design, THT and SMD soldering, FDM and SLA 3D printing
-
-### Hardware & Electronics
-
-**Programming** Java, C/C++, Javascript, Python, MATLAB
-
-**Infrastructure / DevOps** AWS, Git, Make/CMake, Gradle, JIRA, Docker, SQL, PostgreSQL, Linux/Unix
-
-**Frameworks** React, Node.js, Java Spring Boot, HTML/CSS, jQuery, Django, OpenGL, SDL, Arduino Ecosystem
-
-**Interests** Hardware & Software R&D, Data Collection & Visualization, Backend Infrastructure, Embedded Software
+## Fabrication Skills
+- **Basic Metal Fabrication** Mill, Lathe, Steel MIG Welding
+- **Rapid Prototyping** Laser Cutting, FDM and SLA 3D Printing
+- **Woodworking** 2.5D CNC, Hand & power tools, joinery
+- **Marine Composites** Fiberglass & Epoxy layup, mouldmaking, gelcoat

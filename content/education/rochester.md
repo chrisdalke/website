@@ -1,6 +1,6 @@
 ---
 title: "University of Rochester"
-type: "education"
+group: "education"
 ---
 
 College

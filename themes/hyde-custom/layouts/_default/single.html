@@ -6,7 +6,18 @@
 
     <div class="content container">
         <div class="post">
-            <h1>{{ .Title }}</h1> {{ .Content }}
+            <h1>{{ .Title }}</h1>
+            <div class="post-date">{{ .Params.dateString }}</div>
+
+            {{ .Content }}
+
+            {{ if .PrevInSection }}
+            <a href="{{ .PrevInSection.Permalink }}">Previous: {{ .PrevInSection.Title }}</a>
+            {{ end }}
+            {{ if and .PrevInSection .NextInSection }} | {{ end }}
+            {{ if .NextInSection }}
+            <a href="{{ .NextInSection.Permalink }}">Next: {{ .NextInSection.Title }}</a>
+            {{ end }}
         </div>
     </div>
 </body>

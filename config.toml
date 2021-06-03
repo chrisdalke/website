@@ -2,17 +2,15 @@ baseurl = "https://chrisdalke.com/"
 languageCode = "en-us"
 title = "Chris Dalke"
 theme = "hyde-custom"
+pluralizeListTitles = false
+disableKinds = ["taxonomy","taxonomyTerm","sitemap"]
 
 
-  disqusShortname = "chrisdalke-com"
 [params]
   description = "Full-Stack Engineer, Maker, Hardware Hacker"
   author = "Chris Dalke"
 
 [taxonomies]
-
-
-disableKinds = ["taxonomy","taxonomyTerm","sitemap"]
 
 
 [markup.goldmark.renderer]
