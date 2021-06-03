@@ -2,10 +2,9 @@
 
 # About Me
 
-I'm Chris! I'm a full-stack software engineer with a focus on telemetry, data visualization, and controls for hardware systems. 
-I build highly-interactive applications that interface with the physical world. 
+I'm Chris! I'm a full-stack software engineer with a focus on telemetry, data visualization, and controls for hardware systems. I build highly-interactive applications that interface with the physical world. 
 
-I bring a unique interdisciplinary skillset that combines software, mechanical & electrical prototyping, and fabrication.
+I bring a unique interdisciplinary skillset that combines software, UI/UX, mechanical & electrical prototyping, and fabrication.
 
 Outside of engineering, I love running, boating, and the outdoors! I graduated from the University of Rochester in 2019. While there, I ran on the Track and Cross Country teams as a middle distance runner.
 
@@ -17,7 +16,7 @@ Outside of engineering, I love running, boating, and the outdoors! I graduated f
 
 - Building and flying RC airplanes and autonomous drones!
 
-## Projects & Experience
+## Recent Projects & Experience
 
 <div class="experience-type-tag-container show-js">
 <div class="experience-type-tag" id="software-experience-filter">

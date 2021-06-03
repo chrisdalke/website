@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Recent Projects"
 ---
 
 <div class="experience-type-tag-container show-js">
