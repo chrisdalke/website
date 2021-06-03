@@ -1,8 +1,9 @@
+![Solar Splash](/img/solarsplash2.jpg)
 
 # About Me
 
 I'm Chris! I'm a full-stack software engineer with a focus on telemetry, data visualization, and controls for hardware systems. 
-I use my software background to build highly-interactive applications for the physical world. 
+I build highly-interactive applications that interface with the physical world. 
 
 I bring a unique interdisciplinary skillset that combines software, mechanical & electrical prototyping, and fabrication.
 
@@ -18,7 +19,7 @@ Outside of engineering, I love running, boating, and the outdoors! I graduated f
 
 ## Projects & Experience
 
-<div class="experience-type-tag-container">
+<div class="experience-type-tag-container show-js">
 <div class="experience-type-tag" id="software-experience-filter">
     <div class="experience-type-color" style="background-color: #48AFF0"><i class="fas fas-light fa-laptop"></i></div>
     Software

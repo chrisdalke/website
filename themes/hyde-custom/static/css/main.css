@@ -194,9 +194,20 @@ ul {
 
 .project-card-image {
   flex: 1;
+  overflow: hidden;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  object-fit: cover;
 }
 
 .project-card-title-container {
+  flex: 0 0 auto;
   padding: 10px;
 }
 .project-card-title-software {

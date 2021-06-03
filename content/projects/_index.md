@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-<div class="experience-type-tag-container">
+<div class="experience-type-tag-container show-js">
 <div class="experience-type-tag" id="software-experience-filter">
     <div class="experience-type-color" style="background-color: #48AFF0"><i class="fas fas-light fa-laptop"></i></div>
     Software

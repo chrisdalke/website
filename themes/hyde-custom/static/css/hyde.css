@@ -138,7 +138,7 @@ html {
 }
 
 .show-js {
-    display: none;
+    display: none !important;
 }
 
 .menu-js-active.menu-closed {

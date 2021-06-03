@@ -17,7 +17,7 @@
                 <a href="{{.Permalink}}" class="project-card-link">
                 <div class="project-card">
                     <div class="project-card-image">
-
+                        <img src="{{ .Params.image }}"></img>
                     </div>
                     <div class="project-card-title-container
                     {{ if eq .Params.group "education" }}project-card-title-education{{ end }}

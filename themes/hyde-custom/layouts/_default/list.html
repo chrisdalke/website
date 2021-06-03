@@ -13,20 +13,20 @@
             <div class="row" id="filterable-grid">
                 {{ range .Pages }}
                 <div class="col-xs-12 col-md-6 col-lg-4 
-                {{ if eq .Params.type "education" }}grid-section-education{{ end }}
-                {{ if eq .Params.type "software" }}grid-section-software{{ end }}
-                {{ if eq .Params.type "hardware" }}grid-section-hardware{{ end }}
-                {{ if eq .Params.type "career" }}grid-section-career{{ end }}">
+                {{ if eq .Params.group "education" }}grid-section-education{{ end }}
+                {{ if eq .Params.group "software" }}grid-section-software{{ end }}
+                {{ if eq .Params.group "hardware" }}grid-section-hardware{{ end }}
+                {{ if eq .Params.group "career" }}grid-section-career{{ end }}">
                     <a href="{{.Permalink}}" class="project-card-link">
                     <div class="project-card">
                         <div class="project-card-image">
-
+                            <img src="{{ .Params.image }}"></img>
                         </div>
                         <div class="project-card-title-container
-                        {{ if eq .Params.type "education" }}project-card-title-education{{ end }}
-                        {{ if eq .Params.type "software" }}project-card-title-software{{ end }}
-                        {{ if eq .Params.type "hardware" }}project-card-title-hardware{{ end }}
-                        {{ if eq .Params.type "career" }}project-card-title-career{{ end }}
+                        {{ if eq .Params.group "education" }}project-card-title-education{{ end }}
+                        {{ if eq .Params.group "software" }}project-card-title-software{{ end }}
+                        {{ if eq .Params.group "hardware" }}project-card-title-hardware{{ end }}
+                        {{ if eq .Params.group "career" }}project-card-title-career{{ end }}
                         ">
                             {{.Title}}
                         </div>
