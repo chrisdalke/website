@@ -211,16 +211,20 @@ ul {
   padding: 10px;
 }
 .project-card-title-software {
-  background-color: #48b0f070;
+  background-color: #eeeeee;
+  border-bottom: 4px solid #48b0f070;
 }
 .project-card-title-hardware {
-  background-color: #ff6e4a62;
+  background-color: #eeeeee;
+  border-bottom: 4px solid #ff6e4a62;
 }
 .project-card-title-education {
-  background-color: #ffc94063;
+  background-color: #eeeeee;
+  border-bottom: 4px solid #ffc94063;
 }
 .project-card-title-career {
-  background-color: #62d96c56;
+  background-color: #eeeeee;
+  border-bottom: 4px solid #62d96c56;
 }
 
 a.project-card-link {
