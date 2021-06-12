@@ -6,6 +6,11 @@
 
     <div class="content container">
         <div class="post">
+            {{ if eq .Section "projects" }}
+            <a class="back-to-list-link" href="{{ .Parent.Permalink }}">← Back to List</a>
+            {{ else }}
+            <a class="back-to-list-link" href="/">← Back to List</a>
+            {{ end }}
             <h1>{{ .Title }}</h1>
             <div class="post-date">{{ .Params.dateString }}</div>
 

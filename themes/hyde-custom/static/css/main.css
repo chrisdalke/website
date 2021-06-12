@@ -357,3 +357,8 @@ a.project-card-link {
 .fas-light {
   color: black;
 }
+
+a.back-to-list-link {
+  color: #9a9a9a !important;
+  padding: 0px;
+}

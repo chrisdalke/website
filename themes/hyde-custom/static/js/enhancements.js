@@ -103,3 +103,9 @@ $(function() {
         }
     });
 });
+
+function goBack(event) {
+    history.back();
+    event.preventDefault();
+    event.stopPropagation();
+}

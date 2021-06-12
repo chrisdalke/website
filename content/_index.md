@@ -4,7 +4,7 @@
 
 # About Me
 
-I'm Chris! I'm a full-stack software engineer with a focus on telemetry, data visualization, and controls for hardware systems. I build highly-interactive applications that interface with the physical world. 
+I'm a full-stack software engineer with a focus on telemetry, data visualization, and controls for hardware systems. I build highly-interactive applications that interface with the physical world. 
 
 I bring a unique interdisciplinary skillset that combines software, UI/UX, mechanical & electrical prototyping, and fabrication.
 
