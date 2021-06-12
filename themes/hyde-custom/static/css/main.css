@@ -145,6 +145,33 @@ ul {
   padding-left: 45px;
   overflow: hidden;
 }
+
+
+.experience-type-tag:hover::after {
+  z-index: 1;
+  display: block;
+  content: '';
+  position: absolute;
+  background-color: white;
+  opacity: 0.2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#clear-experience-filter:hover::after {
+  z-index: 1;
+  display: block;
+  content: '';
+  position: absolute;
+  background-color: white;
+  opacity: 0.2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
 #clear-experience-filter {
   display: none;
   float: left;
@@ -190,6 +217,20 @@ ul {
   background-color: rgba(0,0,0,0.08);
   height: 10em;
   overflow: hidden;
+  position: relative;
+}
+
+.project-card:hover::after {
+  z-index: 1;
+  display: block;
+  content: '';
+  position: absolute;
+  background-color: white;
+  opacity: 0.2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .project-card-image {
