@@ -8,7 +8,7 @@ image: "/img/thumbnails/amazon.jpg"
 ---
 
 ![Amazon Logo](/img/logo-headers/amazon-logo.jpg)
-I interned with Amazon in Seattle as a Software Development Intern in the summer of 2018. While at Amazon, I worked on the Maps Services team, which owns the real time navigation infrastructure used to support Amazon last-mile delivery drivers.
+I interned with Amazon in Seattle as a Software Development Intern in the summer of 2018. I worked on the Maps Services team, which owns the real time navigation infrastructure used to support last-mile delivery drivers.
 
 ### What I Worked On
 

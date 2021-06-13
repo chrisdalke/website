@@ -10,7 +10,7 @@ image: "/img/thumbnails/convene.jpg"
 ![Convene Logo](/img/logo-headers/convene-logo.jpg)
 
 I worked at Convene as a Software Engineer from September 2019 to March 2021.
-While at Convene, I worked on a range of full-stack projects supporting Convene's hybrid workplace, meetings and events offerings.
+I worked on a range of full-stack projects supporting Convene's hybrid workplace, meetings and events offerings.
 
 ### What I Worked On
 
