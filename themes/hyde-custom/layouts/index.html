@@ -9,7 +9,7 @@
 
         <div class="row" id="filterable-grid">
             {{range .Site.RegularPages}}
-            <div class="col-xs-12 col-md-6 col-lg-4 
+            <div class="col-xs-6 col-md-6 col-lg-4 
             {{ if eq .Params.group "education" }}grid-section-education{{ end }}
             {{ if eq .Params.group "software" }}grid-section-software{{ end }}
             {{ if eq .Params.group "hardware" }}grid-section-hardware{{ end }}

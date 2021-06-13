@@ -7,22 +7,36 @@
     <div class="content container">
         <div class="post">
             {{ if eq .Section "projects" }}
-            <a class="back-to-list-link" href="{{ .Parent.Permalink }}">← Back to List</a>
+            <a class="back-to-list-link" href="/#recent-projects--experience"><div class="section-next-prev-link back-to-list-link-container"><span class="left-arrow-span">➜</span>Back to Home</div></a>
+            <div class="clearfix"></div>
             {{ else }}
-            <a class="back-to-list-link" href="/">← Back to List</a>
+            <a class="back-to-list-link" href="/#recent-projects--experience"><div class="section-next-prev-link back-to-list-link-container"><span class="left-arrow-span">➜</span>Back to Home</div></a>
+            <div class="clearfix"></div>
             {{ end }}
             <h1>{{ .Title }}</h1>
             <div class="post-date">{{ .Params.dateString }}</div>
 
             {{ .Content }}
 
-            {{ if .PrevInSection }}
-            <a href="{{ .PrevInSection.Permalink }}">Previous: {{ .PrevInSection.Title }}</a>
-            {{ end }}
-            {{ if and .PrevInSection .NextInSection }} | {{ end }}
-            {{ if .NextInSection }}
-            <a href="{{ .NextInSection.Permalink }}">Next: {{ .NextInSection.Title }}</a>
-            {{ end }}
+            <div class="section-next-prev-links">
+                {{ if .PrevInSection }}
+                <a href="{{ .PrevInSection.Permalink }}">
+                    <div class="section-next-prev-link">
+                        <span class="left-arrow-span">➜</span> Previous: {{ .PrevInSection.Title }}
+                    </div>
+                </a>
+                {{ end }}
+
+                <div class="spacer"></div>
+
+                {{ if .NextInSection }}
+                    <a href="{{ .NextInSection.Permalink }}">
+                        <div class="section-next-prev-link">
+                            Next: {{ .NextInSection.Title }} <span class="right-arrow-span">➜</span>
+                        </div>
+                    </a>
+                {{ end }}
+            </div>
         </div>
     </div>
 </body>

@@ -18,12 +18,9 @@ The most successful arcade games have extremely satisfying interaction methods: 
 
 In the summer after graduating, I had free time and access to a makerspace. I decided to build a miniature pinball machine [1], with a focus on creating a game with a "feel" influenced by arcade machines. I chose to focus on **tactile response**, **audio**, and **color & light** as three areas to focus on.
 
-To constrain the project to a realistic scope, I chose to build the actual game in software -- The gameplay would occur on a screen, and the input method and other elements would be physical.
+To constrain the project to a realistic scope, I chose to build the actual game in software -- The gameplay would occur on a screen, and the input method and other elements would be physical. 
 
 I approached this project iteratively; because I had so few design constraints there wasn't a predefined plan for the end product. Each step guided my subsequent decisions, as I narrowed in on the complete experience for the machine.
-
-[1] In a nostalgic nod to my childhood and the hours I spent playing the [Space Cadet Pinball](https://en.wikipedia.org/wiki/Full_Tilt!_Pinball) game included with Windows.
-
 
 ## Enclosure
 
@@ -51,24 +48,26 @@ At this stage, I wasn't sure the specific layout of the electronics, but chose a
 
 ## Hardware Subsystems
 
-Integrating all the peripherals turned out to be quite the challenge. The electronics nest tightly into 
+Integrating all the peripherals turned out to be quite the challenge. The electronics nest tightly into the enclosure and center around a Raspberry Pi 4 which powers the video game. The RPi communicates with an Arduino Uno over serial, which drive the peripheral IO including the LED matrix display and button inputs. The RPi is connected to a speaker driver and 7" HDMI touchscreen.
 
 ![Mini Pinball Machine - Hardware](/img/mini-pinball-machine/architecture.png)
 
 ![Mini Pinball Machine - Inside](/img/mini-pinball-machine/IMG_0315.JPG)
 
-### 7" Primary Display
-
 ### AC Power In
+The electronics are powered via 120V AC power and a 5V, 5A, AC-DC power supply. I chose to use AC power instead of a battery because it vastly simplified the power management in the project. The AC power cord connects on the back of the enclosure to a plug with a switch and fuse, used to power on/off the machine.
+
+### 7" Primary Display
+The main display, which shows the video game, is a 7" HDMI touchscreen. The RPi drives the display in 90-degree rotated mode, so the display is in portrait orientation. I use the touchscreen for debug purposes, but in the game the arcade buttons are used as the only input method.
 
 ### Arcade-Style Buttons
 
-One of my priorities was to recreate the feeling of a real pinball machine, . The machine has several methods for accomplishing this. I chose a set of arcade buttons that have a long throw and "clicky" response. I also added a solenoid and relay to the electronics, with the option of activating it to provide haptic feedback. In the end, the buttons ended up feeling great on their own, and I don't use the haptic feedback in-game.
+One of my priorities was to recreate the feeling of flippers on a real pinball machine. The machine has several methods for accomplishing this. I chose a set of arcade buttons that have a long throw and "clicky" response. I also added a solenoid and relay to the electronics, with the option of activating it to provide haptic feedback. In the end, the buttons ended up feeling great on their own, and I don't use the haptic feedback in-game.
 
 ![Mini Pinball Machine - Buttons](/img/mini-pinball-machine/buttons.png)
 
-
-### Stereo Speakers
+### Stereo Speakers & Audio
+The RPi is connected to a set of stereo speakers, built in to the enclosure. The game plays background music on menus and ingame, and also plays a set of sound effects. 
 
 ### LED Matrix Scoreboard
 ![Mini Pinball Machine - Matrix](/img/mini-pinball-machine/matrix.png)
@@ -87,7 +86,38 @@ In "game" mode, the matrix shows a score and the number of balls the player has 
 
 ## Software
 
+### Graphics
 
+### Physics
+
+### Audio
+To provide variation with only a few sound effects, I pitch and volume shift impact noises based on the velocity and angle of the ball to an obstacle.
+
+- **Menu Music**:
+- **Game Music**:
+- **Flipper Sound**:
+- **Impact Sound**:
+- **Red Powerup**:
+- **Blue Powerup**:
+- **Slow-Motion Powerup**: 
+
+
+<audio controls src="/audio/mini-pinball-machine/Bounce3.wav"></audio>
+
+<audio controls src="/audio/mini-pinball-machine/Click_Heavy_00.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/game.mp3"></audio>
+<audio controls src="/audio/mini-pinball-machine/menu.mp3"></audio>
+<audio controls src="/audio/mini-pinball-machine/redPowerup.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/redPowerup3.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/Slide_Sharp_02.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/slowdown.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/speedup.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/Typewriter_02.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/upperBouncer.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/water.wav"></audio>
+<audio controls src="/audio/mini-pinball-machine/water2.wav"></audio>
+
+### User Input
 
 ## Summary
 
