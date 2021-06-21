@@ -5,7 +5,7 @@
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  font: 400 12px/16px "DIN Next LT Pro", Helvetica, Arial, sans-serif;
 }
 
 
@@ -131,9 +131,9 @@ ul {
   float: left;
   padding: 5px;
   background-color: rgba(0,0,0,0.08);
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-right: 5px;
-  font-weight: 500;
+  font-weight: 400;
   padding-right: 15px;
   display: flex;
   flex-direction: row;
@@ -177,9 +177,9 @@ ul {
   float: left;
   padding: 5px;
   background-color: rgba(0,0,0,0.08);
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-right: 5px;
-  font-weight: 500;
+  font-weight: 400;
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
@@ -256,6 +256,7 @@ ul {
 .project-card-title-container {
   flex: 0 0 auto;
   padding: 10px;
+  font-size: 0.9em;
 }
 .project-card-title-software {
   background-color: #eeeeee;
@@ -396,6 +397,18 @@ a.back-to-list-link {
 
 .right-arrow-span {
   margin-left: 5px;
+  
+}
+
+.navigation-link-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 19px;
+  margin-right: 5px;
+  margin-left: 5px;
+
 }
 
 .section-next-prev-link:hover::after {
@@ -417,9 +430,9 @@ a.back-to-list-link {
   float: left;
   padding: 5px;
   background-color: rgba(0,0,0,0.08);
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-right: 5px;
-  font-weight: 500;
+  font-weight: 400;
   padding-right: 15px;
   padding-left: 15px;
   display: flex;

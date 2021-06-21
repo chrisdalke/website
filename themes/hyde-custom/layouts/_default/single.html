@@ -7,10 +7,10 @@
     <div class="content container">
         <div class="post">
             {{ if eq .Section "projects" }}
-            <a class="back-to-list-link" href="/#recent-projects--experience"><div class="section-next-prev-link back-to-list-link-container"><span class="left-arrow-span">➜</span>Back to Home</div></a>
+            <a class="back-to-list-link" href="/#recent-projects--experience"><div class="section-next-prev-link back-to-list-link-container"><div class="navigation-link-icon"><i class="fas fa-angle-left"></i></div>Back to Home</div></a>
             <div class="clearfix"></div>
             {{ else }}
-            <a class="back-to-list-link" href="/#recent-projects--experience"><div class="section-next-prev-link back-to-list-link-container"><span class="left-arrow-span">➜</span>Back to Home</div></a>
+            <a class="back-to-list-link" href="/#recent-projects--experience"><div class="section-next-prev-link back-to-list-link-container"><div class="navigation-link-icon"><i class="fas fa-angle-left"></i></div>Back to Home</div></a>
             <div class="clearfix"></div>
             {{ end }}
             <h1>{{ .Title }}</h1>
@@ -22,7 +22,7 @@
                 {{ if .PrevInSection }}
                 <a href="{{ .PrevInSection.Permalink }}">
                     <div class="section-next-prev-link">
-                        <span class="left-arrow-span">➜</span> Previous: {{ .PrevInSection.Title }}
+                        <div class="navigation-link-icon"><i class="fas fa-angle-left"></i></div> Previous: {{ .PrevInSection.Title }}
                     </div>
                 </a>
                 {{ end }}
@@ -32,7 +32,7 @@
                 {{ if .NextInSection }}
                     <a href="{{ .NextInSection.Permalink }}">
                         <div class="section-next-prev-link">
-                            Next: {{ .NextInSection.Title }} <span class="right-arrow-span">➜</span>
+                            Next: {{ .NextInSection.Title }} <div class="navigation-link-icon"><i class="fas fa-angle-right"></i></div>
                         </div>
                     </a>
                 {{ end }}
