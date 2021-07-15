@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Chris Dalke"
 theme = "hyde-custom"
 pluralizeListTitles = false
-disableKinds = ["taxonomy","taxonomyTerm","sitemap"]
+disableKinds = ["taxonomy","taxonomyTerm"]
 
 
 [params]
