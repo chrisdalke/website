@@ -25,6 +25,7 @@ We built UI to view telemetry in realtime, which our drivers and shore team used
 ![Solar Splash](/img/solar-splash/solarsplash2.jpg)
 
 **We received the following awards at the 2019 competition:**
+
 - Endurance: 4th place
 - Technical report: 3rd place
 - Visual display: 1st place
