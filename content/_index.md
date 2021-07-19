@@ -4,9 +4,7 @@
 
 # About Me
 
-I'm a full-stack software engineer with a focus on telemetry, data visualization, and controls for hardware systems. I build highly-interactive applications that interface with the physical world. 
-
-I bring a unique interdisciplinary skillset that combines software, UI/UX, mechanical & electrical prototyping, and fabrication.
+I'm a full-stack software engineer interested in autonomous systems, solar/electric vehicles, and user interfaces for hardware. I have a unique interdisciplinary skillset that combines software, UI/UX, mechanical & electrical prototyping, and fabrication.
 
 Outside of engineering, I love running, boating, and the outdoors! I graduated from the University of Rochester in 2019. While there, I ran on the Track and Cross Country teams as a middle distance runner.
 
@@ -16,7 +14,7 @@ Outside of engineering, I love running, boating, and the outdoors! I graduated f
 
 - Building [TelemetryJet](https://www.telemetryjet.com/), a data collection & analysis platform for experimental hardware systems. 
 
-- Building and flying RC airplanes and autonomous drones!
+- Building and programming small autonomous planes, drones, rovers, and boats.
 
 ## Recent Projects & Experience
 
