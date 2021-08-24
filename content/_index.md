@@ -10,7 +10,7 @@ Outside of engineering, I love running, boating, and the outdoors! I graduated f
 
 ### What I'm Up To
 
-- Currently working at [908 Devices](http://908devices.com/) as a software engineer in R&D. I'm working on 908 Devices' line of portable, chemical analysis devices based on high-pressure mass spectrometry.
+- Working as an Autonomy Software Engineer at [Sea Machines](https://sea-machines.com/), a leader in pioneering autonomous control and advanced perception systems for the maritime industry.
 
 - Building [TelemetryJet](https://www.telemetryjet.com/), a data collection & analysis platform for experimental hardware systems. 
 

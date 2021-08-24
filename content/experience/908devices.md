@@ -3,13 +3,13 @@ title: "908 Devices"
 group: "career"
 date: 2021-04-01
 draft: false
-dateString: "April 2021 - Present · Boston, MA"
+dateString: "April 2021 - August 2021 · Boston, MA"
 image: "/img/thumbnails/908-devices.jpg"
 ---
 
 ![908 Devices Logo](/img/logo-headers/908-devices-logo.jpg)
 
-I'm currently working as a Software Engineer in R&D at 908 Devices. I'm building software for 908 Devices' line of portable, chemical analysis devices based on high-pressure mass spectrometry.
+In early 2021, I worked as a Software Engineer in R&D at 908 Devices. While at the company, I built software for 908 Devices' line of portable, chemical analysis devices based on high-pressure mass spectrometry.
 
 ### About 908 Devices
 
