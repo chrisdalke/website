@@ -7,7 +7,7 @@ dateString: "August 2021 - Present · Boston, MA"
 image: "/img/thumbnails/sea-machines.jpg"
 ---
 
-![908 Devices Logo](/img/logo-headers/sea-machines-logo.jpg)
+![Sea Machines Logo](/img/logo-headers/sea-machines-logo.jpg)
 
 I'm currently working as an Autonomy Software Engineer at [Sea Machines](https://sea-machines.com/), a leader in pioneering autonomous control and advanced perception systems for the maritime industry.
 

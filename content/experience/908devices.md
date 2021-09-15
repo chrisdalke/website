@@ -11,6 +11,11 @@ image: "/img/thumbnails/908-devices.jpg"
 
 In early 2021, I worked as a Software Engineer in R&D at 908 Devices. While at the company, I built software for 908 Devices' line of portable, chemical analysis devices based on high-pressure mass spectrometry.
 
+### What I Worked On
+- Built a system to calibrate high-voltage AC waveform generation, improving accuracy of the mass spectrometry process.
+- Implemented memory and architecture improvements in a C++ and Python codebase running on embedded Linux.
+- Collaborated with electrical & mechanical engineers to evaluate sensors and components for future products.
+
 ### About 908 Devices
 
 > 908 Devices, is democratizing chemical analysis by way of mass spectrometry, offering point-of-need chemical analysis devices ranging from rugged, handheld chemical detection tools to compact, tiny footprint analyzers and fast separation devices. 
