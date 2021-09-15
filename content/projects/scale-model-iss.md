@@ -48,7 +48,10 @@ In addition to the ISS itself, we also built a 10'x10'x10' frame that the model 
 
 This project was a lot of fun! We worked extremely hard to juggle the short timeline and get everything printed and assembled on time. We were very happy with the end result, seen below after its first assembly.
 
-![Model ISS - Laser Cutting](/img/scale-model-iss/model-iss-4.JPG)
+![Model ISS](/img/scale-model-iss/IMG_5064.JPEG)
+![Model ISS](/img/scale-model-iss/IMG_5070.JPEG)
 
 ### Cancelled Plans... 
-Unfortunately, the Space Week event was cancelled due to COVID-19 before we had a chance to show off the model to the public. Plans are still being made to find the model a home on MIT's campus, or to use it in a future event!
+Unfortunately, the Space Week event was cancelled due to COVID-19 before we had a chance to show off the model to the public.
+
+The project stayed there until 2021, when we got permission to permanently install the main ISS model in the lobby of one of the MIT AeroAstro buildings. We are currently working on reinforcing the frame and preparing to mount the model!
