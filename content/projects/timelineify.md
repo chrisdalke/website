@@ -53,11 +53,11 @@ To deploy the site, I set up [Netlify](https://www.netlify.com/). Netlify builds
 
 At the end of the weekend, I released Timelineify to [timelineify.com](https://www.timelineify.com/). I posted the site on [Hacker News](https://news.ycombinator.com/item?id=26215937) and [Product Hunt](https://www.producthunt.com/posts/timelineify?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-timelineify). Some summary of the usage statistics since release:
 
-- 19.0k pageviews, 2.7k unique visitors
-- 3.0k logged-in user sessions
-- 3.4k artist playlists created
+- 26.0k pageviews, 3.39k unique visitors
+- 4.34k logged-in user sessions
+- 4.61k artist playlists created
 
-![Visitor Stats](/img/timelineify/timelineify-stats.JPG)
+![Visitor Stats](/img/timelineify/analytics1.JPG)
 
 I consider this a great success! The scope of the project was small enough to finish in a weekend, solved the original problem I had, and was useful to other users. I'll be keeping an eye on other 
 Spotify-related projects in the future.
