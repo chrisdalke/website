@@ -4,12 +4,12 @@ group: "career"
 date: 2023-03-01
 draft: false
 dateString: "February 2023 - Ongoing · Boston, MA"
-image: "/img/thumbnails/anduril.jpg"
+image: "/img/thumbnails/anduril-thumbnail.jpg"
 ---
 
-![Anduril Logo](/img/logo-headers/anduril.jpg)
+![Anduril Logo](/img/logo-headers/anduril-logo.png)
 
-I am currently working as an Robotics Software Engineer at [Anduril](https://anduril.com/), building software for large underwater systems.
+I am currently working as an Robotics Software Engineer at [Anduril](https://www.anduril.com/), building software for large underwater systems.
 
 ### About Anduril
 
