@@ -1,18 +1,14 @@
-
-
 ![Solar Splash](/img/solarsplash2.jpg)
 
 # About Me
 
-I'm a full-stack software engineer interested in autonomous systems, solar/electric vehicles, and user interfaces for hardware. I have a unique interdisciplinary skillset that combines software, UI/UX, mechanical & electrical prototyping, and fabrication.
+I’m a full-stack software engineer interested in user interfaces for hardware systems, autonomous mobile robotics, marine technology, and IoT. I have a unique interdisciplinary skill set that combines software, devops, UI/UX, product design, mechanical & electrical prototyping, and robotics.
 
 Outside of engineering, I love running, boating, and the outdoors! I graduated from the University of Rochester in 2019. While there, I ran on the Track and Cross Country teams as a middle distance runner.
 
 ### What I'm Up To
 
-- Working as an Autonomy Software Engineer at [Sea Machines](https://sea-machines.com/), a leader in pioneering autonomous control and advanced perception systems for the maritime industry.
-
-- Building [TelemetryJet](https://www.telemetryjet.com/), a data collection & analysis platform for experimental hardware systems. 
+- Working as an Robotics Software Engineer at [Anduril](https://anduril.com/), building software for large underwater systems.
 
 - Building and programming small autonomous planes, drones, rovers, and boats.
 
