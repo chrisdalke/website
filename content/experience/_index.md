@@ -5,21 +5,20 @@ title: "Experience"
 I combine a deep software background with a broad variety of mechanical design, hardware prototyping, and fabrication experience.
 
 ## Software Skills
-
-- **Programming Languages** C/C++, JavaScript, TypeScript, Java, Python, SQL
+- **Programming Languages** C/C++, JavaScript, Java, Python, SQL
 - **Frameworks** React, Qt, Node.js, HTML/CSS, Spring Boot, OpenGL, SDL, Arduino
-- **Infrastructure / DevOps** AWS, DigitalOcean, Git, Make/CMake, Gradle, Docker, PostgreSQL, Linux/Unix, Nix, NixOS
+- **Infrastructure / DevOps** AWS, DigitalOcean, Git, Make/CMake, Gradle, Docker, PostgreSQL, Linux/Unix
 - **Projects** ROS, ArduPilot, Mavlink
 
-## Hardware & Electrical Skills
 
+## Hardware & Electrical Skills
 - **CAD** Solidworks, Fusion 360
 - **PCB Design** EAGLE, EasyEDA, KiCad
 - **Electrical Fabrication** THT and SMD Soldering
 
 ## Fabrication Skills
-
 - **Basic Metal Fabrication** Mill, Lathe, Steel MIG Welding
 - **Rapid Prototyping** Laser Cutting, FDM and SLA 3D Printing
 - **Woodworking** 2.5D CNC, Hand & power tools, joinery
 - **Marine Composites** Fiberglass & Epoxy layup, mouldmaking, gelcoat
+
