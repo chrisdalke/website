@@ -5,6 +5,6 @@
   HUGO_VERSION = "0.59.1"
 
 [[headers]]
-  for = "/static/DOOM.jsdos"
+  for = "/DOOM.jsdos"
     [headers.values]
     Access-Control-Allow-Origin = "*"
