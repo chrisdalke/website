@@ -1,0 +1,45 @@
+{{ partial "head.html" . }}
+
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+
+    {{ partial "sidebar.html" . }}
+
+    <div class="content container">
+        <div class="post">
+            <a class="back-to-list-link" href="/#recent-projects--experience">
+                <div class="section-next-prev-link back-to-list-link-container">
+                    <div class="navigation-link-icon"><i class="fas fa-angle-left"></i></div>Back to Blog
+                </div>
+            </a>
+            <div class="clearfix"></div>
+            <h1>{{ .Title }}</h1>
+            <div class="post-date">{{ .Params.dateString }}</div>
+
+            {{ .Content }}
+
+            <div class="section-next-prev-links">
+                {{ if .PrevInSection }}
+                <a href="{{ .PrevInSection.Permalink }}">
+                    <div class="section-next-prev-link">
+                        <div class="navigation-link-icon"><i class="fas fa-angle-left"></i></div> Previous: {{
+                        .PrevInSection.Title }}
+                    </div>
+                </a>
+                {{ end }}
+
+                <div class="spacer"></div>
+
+                {{ if .NextInSection }}
+                <a href="{{ .NextInSection.Permalink }}">
+                    <div class="section-next-prev-link">
+                        Next: {{ .NextInSection.Title }} <div class="navigation-link-icon"><i
+                                class="fas fa-angle-right"></i></div>
+                    </div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

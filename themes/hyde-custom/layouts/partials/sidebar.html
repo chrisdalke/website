@@ -7,7 +7,9 @@
             <div class="sidebar-profile-pic-mobile">
                 <img src="{{ .Site.BaseURL }}img/profile.jpg" width="100%">
             </div>
-            <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+            <a href="{{ .Site.BaseURL }}">
+                <h1>{{ .Site.Title }}</h1>
+            </a>
             <p class="lead">
                 {{ with .Site.Params.description }} {{.}} {{ else }}{{end}}
             </p>
@@ -18,6 +20,7 @@
                 <li><a href="/">About</a></li>
                 <li><a href="/projects">Projects</a></li>
                 <li><a href="/experience">Experience</a></li>
+                <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
 
@@ -47,11 +50,12 @@
             <li><a href="/">About</a> </li>
             <li><a href="/projects">Projects</a> </li>
             <li><a href="/experience">Experience</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="/contact">Contact</a> </li>
         </ul>
 
         <ul class="sidebar-nav">
-            <li><a href="https://github.com/chrisdalke">Github  ➜</a></li>
+            <li><a href="https://github.com/chrisdalke">Github ➜</a></li>
             <li><a href="https://www.linkedin.com/in/chrisdalke">LinkedIn ➜</a> </li>
             <li><a href="https://www.youtube.com/channel/UCli_414nxoBYXDMmYaCHiQg">YouTube ➜</a></li>
             <li><a href="https://www.instagram.com/dalks_workshop/">Instagram ➜</a></li>
