@@ -2,13 +2,17 @@
 
 # About Me
 
-I’m a full-stack software engineer interested in user interfaces for hardware systems, autonomous mobile robotics, marine technology, and IoT. I have a unique interdisciplinary skill set that combines software, devops, UI/UX, product design, mechanical & electrical prototyping, and robotics.
+I build big robots that drive, float, and fly!
+
+I’m a full-stack software engineer interested autonomous mobile robotics, marine technology, IoT, and C2 user interfaces. I have a unique interdisciplinary skill set that combines software, devops, UI/UX, product design, mechanical & electrical prototyping, and robotics.
 
 Outside of engineering, I love running, boating, and the outdoors! I graduated from the University of Rochester in 2019. While there, I ran on the Track and Cross Country teams as a middle distance runner.
 
 ### What I'm Up To
 
-- Working as an Robotics Software Engineer at [Anduril](https://anduril.com/), building software for large underwater systems.
+- Building something new in the Unmanned Surface Vessel manufacturing space.
+
+- Recently: Worked as an Robotics Software Engineer at [Anduril](https://anduril.com/), building software for large underwater systems including the Dive-LD and Dive-XL.
 
 - Building and programming small autonomous planes, drones, rovers, and boats.
 

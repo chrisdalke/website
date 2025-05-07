@@ -4,12 +4,13 @@ title: "Experience"
 
 I combine a deep software background with a broad variety of mechanical design, hardware prototyping, and fabrication experience.
 
-## Software Skills
-- **Programming Languages** C/C++, JavaScript, Java, Python, SQL
-- **Frameworks** React, Qt, Node.js, HTML/CSS, Spring Boot, OpenGL, SDL, Arduino
-- **Infrastructure / DevOps** AWS, DigitalOcean, Git, Make/CMake, Gradle, Docker, PostgreSQL, Linux/Unix
-- **Projects** ROS, ArduPilot, Mavlink
+My current focus in in unmanned systems.
 
+## Software Skills
+- **Programming Languages** C/C++, JavaScript, TypeScript, Go, Java, Python, SQL
+- **Frameworks** ROS, React, Qt, Node.js, HTML/CSS, Spring Boot, OpenGL, SDL, Arduino
+- **Infrastructure / DevOps** AWS, DigitalOcean, Git, Make/CMake, Gradle, Docker, PostgreSQL, PostGIS, Linux/Unix, Nix
+- **Projects** ArduPilot, PX4, Mavlink
 
 ## Hardware & Electrical Skills
 - **CAD** Solidworks, Fusion 360

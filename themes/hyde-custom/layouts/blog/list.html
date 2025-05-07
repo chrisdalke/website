@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+
+    {{ partial "sidebar.html" . }}
+
+    <div class="content container">
+        <div class="post">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+            {{ range .Pages }}
+            <div class="col-xs-12">
+                <a href="{{.Permalink}}">
+                    {{.Page.Title}}
+                    {{.Params.date}}
+                </a>
+            </div>
+            {{else}}
+            <div>Nothing to see here (yet)</div>
+            {{end}}
+        </div>
+    </div>
+</body>
+
+</html>
